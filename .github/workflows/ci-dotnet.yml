@@ -33,7 +33,7 @@ jobs:
 
       # 4. Compila la solución sin volver a restaurar
       - name: Build solution
-        run: dotnet build Practica14.sln --no-restore --configuration Release
+        run: dotnet build Practica15.sln --no-restore --configuration Release
 
       # 5. Ejecuta todos los tests de NUnit
       - name: Run tests
